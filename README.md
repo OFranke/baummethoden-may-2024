@@ -16,6 +16,12 @@ The `.vscode` directory contains configurations for useful extensions like [GitL
 
 Open the [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) and run the setup script for your OS (see below). This will install a [Python virtual environment](https://docs.python.org/3/library/venv.html) with all packages specified in `requirements.txt`.
 
+### Run Flask App
+
+```
+flask --app src/api run
+```
+
 ### Linux and Mac Users
 
 1. run the setup script: `./setup.sh` or `sh setup.sh`
